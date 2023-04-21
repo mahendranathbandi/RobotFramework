@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.7.0 on win32)" generated="20230330 19:25:05.084" rpa="false" schemaversion="3">
+<suite id="s1" name="Ifelse" source="C:\Users\bmahe\OneDrive\Desktop\RobotFramework\RobotBasics\Ifelse.robot">
+<test id="s1-t1" name="Testcase2" line="15">
+<if>
+<branch type="IF" condition="${input}==5">
+<kw name="Log To Console" library="BuiltIn">
+<arg>consle</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230330 19:25:05.115" endtime="20230330 19:25:05.115"/>
+</kw>
+<status status="NOT RUN" starttime="20230330 19:25:05.115" endtime="20230330 19:25:05.115"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log To Console" library="BuiltIn">
+<arg>elsestament</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230330 19:25:05.115" endtime="20230330 19:25:05.115"/>
+</kw>
+<status status="PASS" starttime="20230330 19:25:05.115" endtime="20230330 19:25:05.115"/>
+</branch>
+<status status="PASS" starttime="20230330 19:25:05.115" endtime="20230330 19:25:05.115"/>
+</if>
+<status status="PASS" starttime="20230330 19:25:05.115" endtime="20230330 19:25:05.115"/>
+</test>
+<status status="PASS" starttime="20230330 19:25:05.098" endtime="20230330 19:25:05.115"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Ifelse">Ifelse</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

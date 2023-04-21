@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.7.0 on win32)" generated="20230403 18:45:43.426" rpa="false" schemaversion="3">
+<suite id="s1" name="Setup Teardown" source="C:\Users\bmahe\OneDrive\Desktop\RobotFramework\Setup_Teardown.robot">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>I am suitesetup</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230403 18:45:43.442" endtime="20230403 18:45:43.442"/>
+</kw>
+<test id="s1-t1" name="Testcase1" line="10">
+<kw name="Log To Console" library="BuiltIn">
+<arg>I am first testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230403 18:45:43.442" endtime="20230403 18:45:43.442"/>
+</kw>
+<status status="PASS" starttime="20230403 18:45:43.442" endtime="20230403 18:45:43.442"/>
+</test>
+<test id="s1-t2" name="Testcae2" line="13">
+<kw name="Log To Console" library="BuiltIn">
+<arg>I am second Testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230403 18:45:43.457" endtime="20230403 18:45:43.457"/>
+</kw>
+<status status="PASS" starttime="20230403 18:45:43.457" endtime="20230403 18:45:43.457"/>
+</test>
+<test id="s1-t3" name="Testcase3" line="16">
+<kw name="Log To Console" library="BuiltIn">
+<arg>I am third testcase</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230403 18:45:43.457" endtime="20230403 18:45:43.457"/>
+</kw>
+<status status="PASS" starttime="20230403 18:45:43.457" endtime="20230403 18:45:43.457"/>
+</test>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>I am teardown</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230403 18:45:43.457" endtime="20230403 18:45:43.457"/>
+</kw>
+<status status="PASS" starttime="20230403 18:45:43.426" endtime="20230403 18:45:43.457"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Setup Teardown">Setup Teardown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

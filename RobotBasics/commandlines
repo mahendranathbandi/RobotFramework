@@ -1,0 +1,2 @@
+robot <filename.robot>
+robot --test "Testcase2" .\Ifelse.robot
