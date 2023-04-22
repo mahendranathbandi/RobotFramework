@@ -4,16 +4,16 @@ Resource    ../Keyword/Admin.robot
 
 *** Test Cases ***
 Test1
-    [Tags]   one
-    Log To Console    ${firstvar}
+    [Tags]   AD
+    Log To Console    grgr
 
 Test2
-    [Tags]   one
-    Log To Console    ${second}
+    [Tags]   AD
+    Log To Console    fretrg
 
 Test3
     [Tags]   one   four
-    Log To Console    ${Third}
+    Log To Console    fdgregr
 
 Test4
     [Tags]   two   three
